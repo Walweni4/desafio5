@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.sombraCaixa {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 125px;
+    top: 150px;
+    background: rgba(0, 0, 0, 0.09);
+    filter: blur(6px);
+    border-radius: 24px;
+}
+
+.caixaForms {
+    position: absolute;
+    width: 386.49px;
+    height: 385.61px;
+    left: 131.76px;
+    top: 157.19px;
+    background: #FFFFFF;
+    border-radius: 24px;
+}
+
+h1 {
+    position: absolute;
+    left: 140px;
+    top: 45px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18pt;
+    line-height: 28px;
+    color: #494D4B;
+    }
+
+.box1 {
+    position: relative;
+    width: 302px;
+    height: 37px;
+   font-family:  'Inter', sans-serif;
+    font-size: 10.7pt;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 115px;
+    left: 42px;
+    padding: 12px;
+    border: 1px solid #979797;
+
+}
+
+.box2 {
+    position: relative;
+    width: 302px;
+    height: 37px;
+    font-family:  'Inter', sans-serif;
+    font-size: 10.7pt;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 22px;
+    left: 42px;
+    padding: 12px;
+    border: 1px solid #979797;
+}
+
+div#olho {
+    position: relative;
+    width: 18px;
+    height: 14px;
+    left: 313px;
+    top: -25px;
+    background: url(../formulario/↳Color.png);
+}
+
+.botao {
+    cursor: pointer;
+    padding: 2px;    
+}
+
+.botaoEntrar {
+    position: absolute;
+    width: 150px;
+    height: 36px;
+    left: 118px;
+    margin-top: 15px;
+    background: #167A9A;
+    border-radius: 4px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.cadastro {
+    position: absolute;
+    left: 232px;
+    top: 322px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.5pt;  
+    color: #494D4B;
+    text-decoration: none;
+}
+
+.cadastro a{
+    text-decoration: none;
+    color: #494D4B;
+}
+
+div#seta {
+    position: relative;
+    width: 5px;
+    height: 10px;
+    left: 360px;
+    top: 85px;
+    background: url(../formulario/seta.png);
+}
+
+.imagemFundo {
+    position: absolute;
+    width: 593px;
+    height: 401px;
+    left: 605px;
+    top: 139px;
+    background: url(../formulario/imagem.png);
+}
+
+hr {
+    position: relative;
+    top: 75px;
+}
