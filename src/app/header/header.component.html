@@ -1,0 +1,92 @@
+<div id="icon"></div>
+
+<input type="search" name="busca" placeholder="Busque aqui" class="busca">
+
+<div class="user">
+  <img src="/assets/userr 1.png">
+  <p>Walwenia</p>
+</div>
+
+<div id="fundoRetangulo"></div>
+
+<h1>Todos os episódios</h1>
+
+<table>
+    <thead>
+      <tr>
+          <th>PAPODCAST</th>
+          <th class="apresentado">APRESENTADO</th>
+          <th class="data">DATA</th>
+          <th class="duracao">DURAÇÃO</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <hr>
+      <tr>
+        <td class="coluna1"><img src="/assets/datacenter.png"></td>
+        <td class="coluna1v2">O ramo do Data Center no Brasil</td>
+        <td class="coluna2">PapoCast</td>
+        <td class="coluna3">16 Jan 21</td>
+        <td class="coluna4">24:26</td>
+        <td><a routerLink = 'datacenter'><button class="play" (click)="mostrarLancamento()"></button></a></td>
+      </tr>
+      <hr>
+      <tr>
+        <td class="coluna1"><img src="/assets/net.png"></td>
+        <td class="coluna1v2">Bate papo sobre sobre .NET</td>
+        <td class="coluna2">PapoCast</td>
+        <td class="coluna3">20 Fev 21</td>
+        <td class="coluna4">35:40</td>
+        <td><a routerLink = 'net'><button class="play" (click)="mostrarLancamento()"></button></a></td>
+      </tr>
+      <hr>
+      <tr>
+        <td class="coluna1"><img src="/assets/python.png"></td>
+        <td class="coluna1v2">Python: Por onde começar?</td>
+        <td class="coluna2">PapoCast</td>
+        <td class="coluna3">25 Fev 21</td>
+        <td class="coluna4">4:27</td>
+        <td><a routerLink = 'python'><button class="play" (click)="mostrarLancamento()"></button></a></td>
+      </tr>
+      <hr>
+      <tr>
+        <td class="coluna1"><img src="/assets/css.png"></td>
+        <td class="coluna1v2">Vale a pena aprender CSS?</td>
+        <td class="coluna2">PapoCast</td>
+        <td class="coluna3">8 Mar 21</td>
+        <td class="coluna4">1:27:11</td>
+        <td><a routerLink = 'podcss'><button class="play" (click)="mostrarLancamento()"></button></a></td>
+      </tr>
+      <hr>
+      <tr>
+        <td class="coluna1"><img src="/assets/html.png"></td>
+        <td class="coluna1v2">Entenda o que é HTML</td>
+        <td class="coluna2">PapoCast</td>
+        <td class="coluna3">25 Mar 21</td>
+        <td class="coluna4">1:35:18</td>
+        <td><a routerLink = 'podhtml'><button class="play" (click)="mostrarLancamento()"></button></a></td>
+      </tr>
+      <hr>
+      <tr>
+        <td class="coluna1"><img src="/assets/rest.png"></td>
+        <td class="coluna1v2">Um bate papo sobre REST e RESTful</td>
+        <td class="coluna2">PapoCast</td>
+        <td class="coluna3">6 Abr 21</td>
+        <td class="coluna4">1:20:18</td>
+        <td><a routerLink = 'rest'><button class="play" (click)="mostrarLancamento()"></button></a></td>
+      </tr>
+      <hr>
+    </tbody>
+</table>
+
+  <div class="linhavertical"></div>
+
+  <div class="rotas">
+    <div *ngIf="mostrarComponent == true; ">
+      <router-outlet></router-outlet>
+    </div>
+    <div *ngIf="!mostrarComponent">
+      <app-ulancamentos></app-ulancamentos>
+    </div>
+  </div>

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+div#icon {
+    position: absolute;
+    width: 106px;
+    height: 27px;
+    left: 50px;
+    top: 65px;
+    background: url(../header/papocasticon.png) no-repeat;
+}
+
+.busca {
+    position: absolute;
+    width: 340px;
+    height: 30px;
+    left: 560px;
+    top: 62px;
+    text-align: initial;
+    padding-left: 50px;
+    border: none;
+    border-bottom: 1px solid #DDF2F2;
+    background: url(/assets/busca.png) no-repeat center left;
+}
+
+.busca::-webkit-input-placeholder{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #DDF2F2;
+}
+
+.user img{
+  position: absolute;
+  width: 15px;
+  height: 16.5px;
+  right: 130px;
+  top: 67px;
+}
+
+.user p {
+  position: absolute;
+  width: 67px;
+  height: 21px;
+  right: 55px;
+  top: 47.5px;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #DDF2F2;
+}
+
+div#fundoRetangulo{
+    position: absolute;
+    width: 100%;
+    height: 668px;
+    left: 0px;
+    top: 152px;
+    background: #FAFCFC;
+}
+
+h1 {
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    width: 185px;
+    height: 28px;
+    left: 50px;
+    top: 220px;
+    color: #494D4B;
+}
+
+thead {
+    position: absolute;
+    width: 800px;
+    height: 20px;
+    margin-left: 35px;
+    top: 293px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #AFB3B1;
+}
+
+tbody {
+    position: absolute;
+    top: 320px;
+    left: 45px;
+    width: 800px;
+    color: #494D4B;
+}
+
+td {
+    height: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+hr {
+    size: 1;
+    width: 804px;
+}
+
+.apresentado {
+    position: absolute;
+    left: 365px;
+}
+
+.data {
+    position: absolute;
+    left: 550px;
+}
+
+.duracao {
+    position: absolute;
+    left: 665px;
+}
+
+.coluna1 {
+    position: relative;
+    width: 30px;
+    color: #494D4B;
+}
+
+.coluna1v2 {
+    position: relative;
+    width: 280px;
+    padding-left: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #494D4B;
+}
+
+.coluna2 {
+    position: absolute;
+    padding-top: 15px;
+    left: 370px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #808080;
+}
+
+.coluna3 {
+    position: absolute;
+    padding-top: 15px;
+    left: 535px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #808080;
+}
+
+.coluna4 {
+    position: absolute;
+    padding-top: 15px;
+    left: 665px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #808080;
+}
+
+.play {
+    position: relative;
+    width: 37px;
+    height: 37px;
+    left: 428px;
+    border: none;
+    background: url(/assets/Play.png) no-repeat;
+}
+
+.linhavertical {
+    position: absolute;
+    width: 570px;
+    height: 0px;
+    left: 598px;
+    top: 515px;
+    border: 1px solid #494D4B;
+    transform: rotate(90deg);
+}
+

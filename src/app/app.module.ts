@@ -6,17 +6,21 @@ import { FooterComponent } from './footer/footer.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { AppRoutingModule } from './app-routing.module';
+import { HeaderModule } from './header/header.module';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     FormularioComponent,
-    CadastroComponent
+    CadastroComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HeaderModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

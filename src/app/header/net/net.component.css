@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+h4 {
+    position: absolute;
+    width: 170px;
+    height: 28px;
+    right: 148.5px;
+    top: 210px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #494D4B;
+}
+
+div#seta {
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    right: 420px;
+    top: 295px;
+    background: url(/assets/seta.png);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+a {
+    position: absolute;
+    width: 163px;
+    height: 17px;
+    right: 250px;
+    top: 293px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ABA8B3;
+}
+
+.retanguloCard {
+    position: absolute;
+    width: 432px;
+    height: 426px;
+    left: 902px;
+    top: 326px;
+    background: #FFFFFF;
+    border: 1px solid #E6E8EB;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+
+.retanguloCard img {
+    position: relative;
+    top: 20px;
+    left: 20.5px;
+    width: 389px;
+    height: 151px;
+    border-radius: 16px;
+}
+
+h1 {
+    position: relative;
+    height: 19px;
+    left: 20.5px;
+    top: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #494D4B;
+}
+
+h2 {
+    position: relative;
+    width: 71px;
+    height: 17px;
+    left: 20.5px;
+    top: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #808080;
+}
+
+p {
+    position: relative;
+    width: 323px;
+    height: 85px;
+    left: 20.5px;
+    top: 33px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #808080;
+}
+
+h3 {
+    position: relative;
+    text-align: right;
+    height: 17px;
+    right: 22px;
+    top: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #808080;
+}
